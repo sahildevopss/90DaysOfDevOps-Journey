@@ -99,7 +99,7 @@ Run PostgreSQL with Volume
 docker run -d \
 --name postgres-volume \
 -e POSTGRES_PASSWORD=admin \
--v postgres-data:/var/lib/postgresql/data \
+-v postgres-data:/var/lib/postgresql/ \
 -p 5432:5432 \
 postgres
 ```
