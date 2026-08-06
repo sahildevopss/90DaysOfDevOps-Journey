@@ -22,7 +22,7 @@ postgres
 
 ### Screenshot
 
-![PostgreSQL Container](images/postgres-container.png)
+![PostgreSQL Container](screenshots/postgres-container.png)
 
 ---
 
@@ -48,7 +48,7 @@ SELECT * FROM students;
 
 ### Screenshot
 
-![Database Created](images/Created-database.png)
+![Database Created](screenshots/Created-database.png)
 
 ---
 
@@ -63,7 +63,7 @@ Run another PostgreSQL container without using a volume.
 
 ### Screenshot
 
-![Recreated PostgreSQL Container](images/recreated-postgres.png)
+![Recreated PostgreSQL Container](screenshots/recreated-postgres.png)
 
 ### Observation
 
@@ -92,7 +92,7 @@ postgres
 
 ### Screenshot
 
-![Named Volume](images/named-volume.png)
+![Named Volume](screenshots/named-volume.png)
 
 After recreating the container with the same volume attached, all database records were still available.
 
@@ -120,7 +120,7 @@ Edit the HTML file on the host and refresh the browser.
 
 ### Screenshot
 
-![Bind Mount](images/nginx-edited-bindmount-.png)
+![Bind Mount](screenshots/nginx-edited-bindmount-.png)
 
 ### Observation
 
@@ -148,7 +148,7 @@ Ping using the container name.
 
 ### Screenshot
 
-![Ping by Name](images/pingbyname.png)
+![Ping by Name](screenshots/pingbyname.png)
 
 Result:
 
@@ -160,7 +160,7 @@ Ping using the container IP address.
 
 ### Screenshot
 
-![Ping by IP](images/pingbyIP.png)
+![Ping by IP](screenshots/pingbyIP.png)
 
 Result:
 
@@ -188,11 +188,11 @@ Ping one container from the other using its container name.
 
 ### Screenshot
 
-![Custom Network Inspect](images/custom-network-inspect.png)
+![Custom Network Inspect](screenshots/custom-network-inspect.png)
 
 ### Screenshot
 
-![Ping by Name](images/pingbyname.png)
+![Ping by Name](screenshots/pingbyname.png)
 
 ### Observation
 
@@ -210,7 +210,7 @@ Verify connectivity.
 
 ### Screenshot
 
-![Application Connected to Database](images/ping-database.png)
+![Application Connected to Database](screenshots/ping-database.png)
 
 ### Observation
 
