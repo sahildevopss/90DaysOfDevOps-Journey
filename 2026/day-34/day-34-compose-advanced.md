@@ -155,7 +155,9 @@ redis
 
 ### Screenshot
 
+
 ![Docker Compose 3-Service Stack](screenshots/'docker-compose-for-3-service-stack.png')
+![Docker Compose 3-Service Stack](screenshots/3-service-stack.png)
 
 ---
 
