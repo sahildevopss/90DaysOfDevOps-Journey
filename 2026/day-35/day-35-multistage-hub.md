@@ -11,18 +11,19 @@ Today's goal was to build an optimized Docker image using a simple Go web applic
 ```text
 day-35/
 ├── day-35-multistage-hub.md
+└── screenshots/
+        ├── golang-app.png
+        ├── singlestage-dockerfile.png
+        ├── multistage-dockerfile.png
+        ├── task3-completion.png
+        └── non-root-user.png
 └── golang/
     ├── main.go
     ├── go.mod
     ├── Dockerfile.single
     ├── Dockerfile.multistage
     ├── Dockerfile.optimized
-    └── screenshots/
-        ├── golang-app.png
-        ├── singlestage-dockerfile.png
-        ├── multistage-dockerfile.png
-        ├── task3-completion.png
-        └── non-root-user.png
+    
 ```
 
 ---
@@ -46,7 +47,7 @@ The application runs on:
 
 ### Screenshot
 
-![Go Application](golang/screenshots/golang-app.png)
+![Go Application](screenshots/golang-app.png)
 
 ---
 
@@ -124,7 +125,7 @@ The image contains the Go build environment and compiler along with the applicat
 
 ### Screenshot
 
-![Single Stage Dockerfile](golang/screenshots/singlestage-dockerfile.png)
+![Single Stage Dockerfile](screenshots/singlestage-dockerfile.png)
 
 ---
 
@@ -237,7 +238,7 @@ The final image therefore does not contain the Go compiler or unnecessary build 
 
 ### Screenshot
 
-![Multi Stage Dockerfile](golang/screenshots/multistage-dockerfile.png)
+![Multi Stage Dockerfile](screenshots/multistage-dockerfile.png)
 
 ---
 
@@ -355,7 +356,7 @@ Compressed size: 8.1 MB
 
 ### Screenshot
 
-![Docker Hub](golang/screenshots/task3-completion.png)
+![Docker Hub](screenshots/task3-completion.png)
 
 ---
 
@@ -493,7 +494,7 @@ The output confirmed that the container runs as the configured non-root user.
 
 ### Screenshot
 
-![Non Root User](golang/screenshots/non-root-user.png)
+![Non Root User](screenshots/non-root-user.png)
 
 ---
 
@@ -571,23 +572,23 @@ golang/screenshots/
 
 ### Application
 
-![Go Application](golang/screenshots/golang-app.png)
+![Go Application](screenshots/golang-app.png)
 
 ### Single-Stage Build
 
-![Single Stage Dockerfile](golang/screenshots/singlestage-dockerfile.png)
+![Single Stage Dockerfile](screenshots/singlestage-dockerfile.png)
 
 ### Multi-Stage Build
 
-![Multi Stage Dockerfile](golang/screenshots/multistage-dockerfile.png)
+![Multi Stage Dockerfile](screenshots/multistage-dockerfile.png)
 
 ### Docker Hub
 
-![Docker Hub](golang/screenshots/task3-completion.png)
+![Docker Hub](screenshots/task3-completion.png)
 
 ### Non-Root Container
 
-![Non Root User](golang/screenshots/non-root-user.png)
+![Non Root User](screenshots/non-root-user.png)
 
 ---
 
