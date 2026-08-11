@@ -1,0 +1,13 @@
+#stage 1: Build
+
+FROM golang:1.26
+
+WORKDIR /app
+
+COPY . .
+
+RUN go build -o app .
+
+EXPOSE 8080
+
+CMD ["./app"]
