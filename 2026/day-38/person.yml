@@ -1,0 +1,17 @@
+name: sahil
+
+role: Devops-engineer
+
+experience_years: 6
+
+learning: true
+
+tools:
+  - linux
+  - Github-actions
+  - Git
+  - Docker
+  - AWS
+  - K8s
+
+hobbies: [learning, fitness,technology]
