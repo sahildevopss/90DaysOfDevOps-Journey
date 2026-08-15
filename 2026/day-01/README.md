@@ -1,4 +1,4 @@
-# Day 01 – Introduction to DevOps and Cloud
+# Day 01 – Introduction to DevOps and Cloud.
 
 ## Task
 Today’s goal is to **set the foundation for your DevOps journey**.
