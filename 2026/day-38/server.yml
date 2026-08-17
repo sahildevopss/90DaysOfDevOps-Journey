@@ -10,4 +10,5 @@ database:
     user: devops
     password: secret123
 
+database:
 
