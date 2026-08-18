@@ -10,5 +10,13 @@ database:
     user: devops
     password: secret123
 
-database:
+startup_script: |
+  #!/bin/bash
+  echo "starting server"
+  systemctl start nginx
+  echo "server started"
 
+startup_message: >
+  This is a startup message
+  that will be folded
+  into a single line
