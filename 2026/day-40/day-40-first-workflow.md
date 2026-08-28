@@ -150,7 +150,7 @@ The `exit 1` command returns a non-zero exit status, which GitHub Actions flags 
 - The `greet` job stopped processing further steps and flipped to a red X.
 - Subsequent steps after the failure were automatically skipped.
 
-###Failed pipeline
+### Failed pipeline
 
 ![Failed Pipeline Logs](screenshots/intentional-failure.png)
 
