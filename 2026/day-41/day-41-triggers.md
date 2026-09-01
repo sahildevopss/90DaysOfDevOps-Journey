@@ -246,7 +246,7 @@ GitHub Actions schedules are based on UTC, so the local time should be considere
 
 ## Screenshot
 
-![Scheduled Workflow](./screenshots/schedule-workflow.png)
+![Scheduled Workflow](./screenshots/schedule-workflowpng.png)
 
 ---
 
